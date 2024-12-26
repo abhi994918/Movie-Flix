@@ -1,0 +1,47 @@
+
+ .Nav {
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(170deg, #4267b2, #ff3376);
+  display: flex;
+  justify-content: space-between;
+}
+.Title  {
+  font-size: 30;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+  &:hover {
+    color: #0f0;
+  }
+}
+
+.CartIconContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.CartImg{
+  height: 40px;
+  margin-right: 20px;
+  
+  
+ 
+}
+.CartCount {
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 4px 8px;
+  position: absolute;
+  right: 10px;
+  top:-5px;
+  color: #ff3376;
+  font-size: 10px;
+ 
+}
